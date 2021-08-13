@@ -1,0 +1,199 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Springfield</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="/css/main.min.css" rel="stylesheet">
+  <style>
+    section{
+      padding: 60px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
+    <div class="container-xxl">
+      <a class="navbar-brand" href="#intro">
+        <span class="text-secondary fw-bold">
+          <i class="bi bi-lightbulb"></i>
+          Springfield - A jövő városa
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#topics">Hogyan kezdődött?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviews">Előnyök</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Kapcsolat</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="intro">
+    <div class="container-lg">
+      <div class="row g-4 justify-content-center align-items-center">
+        <div class="col-md-5 text-center text-md-start">
+          <h1>
+            <div class="display-2">Számodra is fontos a fenntartható fejlődés?</div>
+          </h1>
+          <a href="#contact" class="btn btn-secondary btn-lg">Igen!</a>
+        </div>
+        <div class="col-md-5 text-center d-none d-md-block">
+          <span class="tt" data-bs-placement="bottom" title="Green city">
+            <img src="/assets/cover.png" class="img-fluid" alt="green">
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="topics">
+    <div class="container-md">
+      <div class="text-center">
+        <h2>Springfield energiafelhasználásának története</h2>
+        <p class="lead text-muted">Hogyan is kezdődött... </p>
+      </div>
+      <div class="row my-5 g-5 justify-content-around align-items-center">
+        <div class="col-6 col-lg-4">
+          <img src="/assets/homer.png" class="img-fluid" alt="green">
+        </div>
+        <div class="col-lg-6">
+          <div class="accordion" id="chapters">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+                  A kezdetek
+                </button>
+              </h2>
+              <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Az atomerőmú sokáig a város egyetlen energiaforrása volt.</p>
+                  <p>A Burns család tulajdonában áll</p>
+                  <p>26 embert foglalkoztatnak, köztük Homer Simpson-t</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
+                  A változás
+                </button>
+              </h2>
+              <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Az atomerőmű hanyag vezetősége miatt több kellemetlen incidens is történ</p>
+                  <p>A város már nem tartotta biztonságos energiaforrásnak.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-1">
+                  A fejlődás
+                </button>
+              </h2>
+              <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>A vezetőség alternatív energiaforrásokat vezetett be</p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="bg-altlight">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>A megújuló energiaforrások előnyei</h2>
+      </div>
+
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-8">
+          <div class="list-group">
+            <div class="list-group-item py-3">
+              <h5 class="mb-1">Kifogyhatatlan</h5>
+              <p class="mb-1">A földet érő 1 órányi napsütés több energiát ad, mint amennyit az emberiség 1 év alatt elhasznál. A megújuló energiaforrások tehát korlátlan mennyiségben állnak rendelkezésre, sosem fogynak el.</small>
+            </div>
+            <div class="list-group-item py-3">
+              <h5 class="mb-1">Hozzáférhető</h5>
+              <p class="mb-1">Mivel bárki, bármikor hozzáférhet, magának az energiaforrásnak nincs ára – szemben például a kőolajjal, amihez munkára van szükség: fúrásra, hogy megtalálják, felhozzák, majd nemzetközi csőhálózatokon vagy tankereken keresztül eljuttassák a végfelhasználóhoz.</small>
+            </div>
+            <div class="list-group-item py-3">
+              <h5 class="mb-1">Nem szennyez</h5>
+              <p class="mb-1">Tiszta energiának is szokták őket hívni, hiszen a közvélekedés szerint – a fosszilis tüzelőanyagokkal szemben – nem bocsátanak ki káros melléktermékeket. Ez azonban nem teljesen igaz.</small>
+            </div>
+          
+          </div>
+          <small><a href="https://hugas.met.com/hu/fyouture/energia/megujulo-energiaforrasok/1155">forrás</a></small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container-lg">
+      
+      <div class="text-center">
+        <h2>Kérdésed van?</h2>
+        <p class="lead">Lépj velünk kapcsoaltba!</p>
+      </div>
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-6">
+          
+          <form>
+            <label for="email" class="form-label">Email</label>
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-fill text-secondary"></i>
+              </span>
+              <input type="text" id="email" class="form-control" placeholder="exemple@email.com" />
+              <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Enter an email address we can reply to.">
+                  <i class="bi bi-question-circle text-muted"></i>
+                </span>
+              </span>
+            </div>
+            <div class="mb-4 mt-5 form-floating">
+              <textarea class="form-control" id="query" style="height: 140px" placeholder="query"></textarea>
+              <label for="query">Kérlek mondd el a véleményedet, ötletedet</label>
+            </div>
+            <div class="mb-4 text-center">
+              <button type="submit" class="btn btn-secondary">Elküld</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script>
+    const tooltips = document.querySelectorAll('.tt')
+    tooltips.forEach(t => {
+      new bootstrap.Tooltip(t)
+    })
+  </script>
+</body>
+</html>
